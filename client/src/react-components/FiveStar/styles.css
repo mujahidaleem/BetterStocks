@@ -1,0 +1,44 @@
+.star--percent100 {
+    clip-path: inset(0 0 0 0);
+}
+
+.star--percent90 {
+    clip-path: inset(0 17% 0 0);
+}
+
+.star--percent80 {
+    clip-path: inset(0 20% 0 0);
+}
+
+.star--percent70 {
+    clip-path: inset(0 30% 0 0);
+}
+
+.star--percent60 {
+    clip-path: inset(0 40% 0 0);
+}
+
+.star--percent50 {
+    clip-path: inset(0 50% 0 0);
+}
+
+.star--percent40 {
+    clip-path: inset(0 60% 0 0);
+}
+
+.star--percent30 {
+    clip-path: inset(0 70% 0 0);
+}
+
+.star--percent20 {
+    clip-path: inset(0 80% 0 0);
+}
+
+.star--percent10 {
+    clip-path: inset(0 85% 0 0);
+}
+
+.star--percent0 {
+    clip-path: inset(0 100% 0 0);
+
+}

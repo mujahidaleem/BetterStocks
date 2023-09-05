@@ -1,0 +1,38 @@
+.stockPage {
+    margin-top: 6em;
+}
+
+.stockPage .stockContent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.stockPage .stock {
+    margin: auto;
+    height: 25em;
+    width: 80%;
+}
+
+.stockPage .reviews {
+    margin-top: 5em;
+}
+
+button {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border: 0.5px solid grey;
+    text-align: center;
+}
+
+button:hover {
+    border: 1.5px solid #555;
+}
+
+button:active {
+    background-color: grey;
+    color: white;
+}

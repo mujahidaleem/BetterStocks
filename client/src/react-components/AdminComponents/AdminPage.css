@@ -1,0 +1,40 @@
+.userHeader {
+    margin-top: 5rem;
+    margin-left: 22rem;
+    margin-right: auto;
+    font-family: "Nunito";
+	font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+}
+
+.userContainer{
+    position: absolute;
+    top:150px;
+    left: 60px;
+}
+
+.blacklistContainer{
+    position: absolute;
+    top: 150px;
+    left: 875px;
+}
+
+.blackListHeader {
+    margin-top: 5rem;
+    margin-left: 70rem;    
+    font-family: "Nunito";
+	font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+}
+
+.scroller {
+    margin-top: 120px;
+    width: 65vw;
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: none;
+    scrollbar-width: thin;
+    position: relative;
+  }

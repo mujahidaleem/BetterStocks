@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+#inputDivLogin {
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: -60px;
+	width: 70%;
+}
+
+.textbox {
+	background-color: #d9d9d9;
+	border: none;
+	display: block;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 60px;
+	width: 200px;
+	color: black;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 20px;
+	transition: all 0.2s ease-in-out;
+	font-family: 'Nunito';
+
+}
+.textbox:hover {
+	transform: scale(1.08);
+}
+.textbox:focus {
+	border: none;
+	display: block;
+	margin-top: 10px;
+
+	color: black;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border-radius: 12px;
+	transform: scale(1.12);
+}
+
+#submit-button-login {
+	background-color: #8f8f8f;
+	color: white;
+	font-weight: bolder;
+	border: none;
+	display: block;
+	margin-top: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 60px;
+	width: 200px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
+	border: black 2px solid;
+	font-family: 'Nunito';
+
+	
+}
+#submit-button-login:focus {
+	border: black 2px solid;
+	transform: scale(1);
+}
+
+#submit-button-login:hover {
+	transform: scale(1.08);
+}
+
+#inputDiv input::placeholder {
+	color: black;
+	opacity: 0.8;
+	padding: 5px;
+}
+
+.bottom-links-list {
+	display: inline-block;
+	margin-right: auto;
+	margin-left: 2%;
+	
+}
+
+.bottom-loginsignup-button {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+	min-width: 100px;
+}
+.bottom-loginsignup-button a {
+	width: 100px;
+}
+.bottom-links-listitem {
+	display: inline-block;
+	margin-right: 5px;
+	min-width: 100px;
+}
+
+
+
+#phrase {
+    margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    width:fit-content;
+    height:fit-content;
+	font-style: italic;
+    font-size: 1.3em;
+	color: rgb(71, 71, 71);
+	font-family: 'Nunito';
+
+}

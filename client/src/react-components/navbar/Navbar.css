@@ -1,0 +1,53 @@
+.navbar{
+    overflow:hidden;
+    height:7%;
+    border-bottom: 1.5px solid grey;
+    z-index:1;
+    background-color: white;
+}
+
+.sticky {
+    float: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+ .logo {
+    padding-right: 2rem;
+    font-size: 1.5em;
+	font-variant: small-caps;
+	font-family: 'Nunito';
+}
+
+#nav-section{
+    margin-left: auto;
+    margin-right: auto;
+    display:inline;
+    list-style: none;
+}
+
+
+#nav-section li{
+    flex:left;
+    display:inline;
+    padding: 10px;
+    width:auto;
+    font-family: 'Nunito';
+    font-size: 15px;
+}
+
+.nav-items {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    color: black;
+    display: inline-block;
+}
+
+.nav-items:hover{
+    transform: scale(1.1);
+}
+
+#admin{
+    display: none;
+}

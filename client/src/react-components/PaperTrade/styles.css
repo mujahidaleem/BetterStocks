@@ -1,0 +1,98 @@
+.paperTrade .content {
+    margin-top: 7em;
+    font-family: 'Nunito';
+}
+
+.paperTrade .topInfo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.paperTrade .topInfo .statistics {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paperTrade .topInfo .statistics .statistic {
+    padding: 1em;
+}
+
+.paperTrade .topInfo .statistics .statistic strong {
+    text-decoration-line: underline;
+    text-decoration-color: grey;
+    text-decoration-style: dotted;
+    cursor: help;
+}
+
+.paperTrade .statistics thead th {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.paperTrade .statistics tbody td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.paperTrade .buySell {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.paperTrade .buySell input {
+    margin-left: 1em;
+}
+
+.paperTrade .buySell #stockBuySellErrorMsg {
+    color: red;
+}
+
+.paperTrade .holdings {
+    margin-top: 4em;
+}
+
+.buysellb {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border: 0.5px solid grey;
+    text-align: center;
+}
+
+.stockb {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border:none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+
+.stockb:focus {
+    border: 1.8px solid #555;
+  }
+
+.stockb:hover {
+    border-bottom: 1.5px solid #555;
+  }
+
+.buysellb:hover {
+    border: 1.5px solid #555;
+  }
+
+.buysellb:active {
+
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,45 @@
+.statsSection {
+    width: 300px;   
+    height: 300px;
+    padding: 10px;
+    border: 1cm;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+}
+
+.averageScore {
+    font-size: 300%;
+	font-weight: bold;
+    position: absolute;
+}
+
+.numComments {
+    left:80px;
+    top: 50px;
+    font-size: 100%;
+    width: 300px;
+    position: absolute;
+}
+
+.averageStars {
+    width: 200px;
+    top: 10px;
+    left: 80px;
+    position: absolute;
+}
+
+.starData {
+    top: 150px;
+    left: -10px;
+    width: 300px;
+    position: absolute;
+}
+
+.numData {
+    top: 150px;
+    width: 500px;
+    left: 150px;
+    font: 1.5em icon;
+    font-weight:lighter ;
+    position: absolute;
+}

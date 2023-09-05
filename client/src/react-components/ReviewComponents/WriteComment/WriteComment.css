@@ -1,0 +1,117 @@
+.commentSection {
+    width: 55vw;
+    height: 70vh;
+    top: 5vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+}
+
+.stars {
+    left: 40px;
+    top: 30px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.blackStars {
+    left: 40px;
+    top: 30px;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.commentBox {
+    top: 70px;
+    left: 0vw;
+    font-size: x-large;
+    margin: 10px;
+    height: 40vh;
+    width: 45vw;
+    padding: 10px;
+    position: relative;
+    background-color: white;   
+    border-radius: 10px;
+    border: none;
+}
+
+.submit{
+    left: 0vw;
+    bottom: -70px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px 2px;    
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+    }
+
+    .backButton{
+        left: 3vw;
+        bottom: -70px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-color: rgb(255, 255, 255);
+        margin: 4px 2px;    
+        width: 100px;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        transition-duration: 0.2s;
+        border-radius: 5px;
+        }
+    
+    .button3:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+      }
+
+    .star1{
+        left: 43px;
+        top: 35px;
+        font-size: medium;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .star2{
+        left: 83px;
+        top: 35px;
+        font-size: medium;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .star3{
+        left: 123px;
+        top: 35px;
+        font-size: medium;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .star4{
+        left: 163px;
+        top: 35px;
+        font-size: medium;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .star5{
+        left: 203px;
+        top: 35px;
+        font-size: medium;
+        position: absolute;
+        opacity: 0;
+    }

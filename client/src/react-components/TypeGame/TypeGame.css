@@ -1,0 +1,129 @@
+#game{
+    display: block;
+}
+
+#gameInput{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35rem;
+    width: 30vw;
+    height: 50px;
+    position: relative;
+    border: solid black 2px;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wordBox{
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;   
+    margin-top: -32.5rem;
+    margin-bottom: 2rem;
+}
+
+.word{
+    font-size: large;
+    color: rgb(71, 71, 71);
+	font-family: 'Nunito';
+}
+
+.instructions{
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 60vw;
+    top: 20vh;
+    right: 5vw;
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    max-width: 25em;
+    font-size: large;
+    color: rgb(71, 71, 71);
+	font-family: 'Nunito';
+}
+
+.scores{
+    top: 80px;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+    color: rgb(71, 71, 71);
+	font-family: 'Nunito';
+    text-align: left;
+    position: absolute;
+}
+
+.red{
+    color: red;
+}
+
+#gameOver{
+    background-color: white;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.gameOverScore{
+    top: 4rem;
+	color: rgb(71, 71, 71);
+	font-family: 'Nunito';
+    position: relative;
+}
+
+.leaderBoard{
+    background-color: #e5e5e5;
+    margin-top: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 100px auto auto auto;
+    padding: 13px;
+}
+
+.grid-item {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.grid-item-bold {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .playAgain{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:  #e5e5e5;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+    }
+
+    .button10:hover{
+        box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24);
+}
